@@ -10,4 +10,10 @@
 
 const prompt = require('prompt-sync')();
 
-let numero = parseFloat(prompt("Ingresa un numero:")); // Pida al usuario que ingrese un número.
+let numero1 = parseFloat(prompt("Ingresa el primer numero:")); // Pedimos al usuario que ingrese el primer número.
+
+let numero2 = parseFloat(prompt("Ingresa el segundo número: ")); // Pedimos al usuario que ingrese el segundo número.
+
+let suma = numero1 + numero2; // Sumamos ambos números
+
+console.log("El resultado de la suma es: " + suma); // Mostramos el resultado de la suma
